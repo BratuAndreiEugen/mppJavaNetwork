@@ -1,6 +1,6 @@
-package controller;
+package client.controller;
 
-import app.RunApp;
+import client.StartObjectClientFX;
 import exceptions.ValidationException;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -13,13 +13,15 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import model.User;
-import service.Service;
+import server.Service;
+import utils.IServices;
+
 
 import java.io.IOException;
 
 public class LoginController {
 
-    private Service service;
+    private IServices service;
 
     @FXML
     TextField textFieldNume;
@@ -33,7 +35,7 @@ public class LoginController {
     @FXML
     public void initialize()
     {
-        EventHandler<javafx.event.ActionEvent> event = new EventHandler<javafx.event.ActionEvent>() {
+        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 try {
@@ -58,32 +60,34 @@ public class LoginController {
         System.out.println(password);
         User u = null;
         try {
-            u = service.login(data, password);
-        }catch (ValidationException ve){
-            MessageAlert.showErrorMessage(null, "Nume sau parola incorecte");
-        }
-        if(u != null) {
-            System.out.println(u);
-            FXMLLoader fxmlLoader = new FXMLLoader(RunApp.class.getResource("/view/mainView.fxml"));
+
+            FXMLLoader fxmlLoader = new FXMLLoader(StartObjectClientFX.class.getResource("/view/mainView.fxml"));
             Scene scene=new Scene(fxmlLoader.load());
             Stage stage=new Stage();
             stage.setScene(scene);
             stage.show();
             MainController mainController = fxmlLoader.getController();
+            u = service.login(data, password, mainController);
             mainController.setUser(u);
             mainController.setService(service);
-            mainController.update();
-            service.addObserver(mainController);
+            //service.addObserver(mainController);
+            mainController.initModel();
             ((Node)(event.getSource())).getScene().getWindow().hide();
 
+
+        }catch (ValidationException ve){
+            MessageAlert.showErrorMessage(null, "Nume sau parola incorecte");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
+
     }
 
-    public Service getService() {
+    public IServices getService() {
         return service;
     }
 
-    public void setService(Service service) {
+    public void setService(IServices service) {
         this.service = service;
     }
 }

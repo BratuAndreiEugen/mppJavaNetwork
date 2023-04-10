@@ -1,19 +1,21 @@
-package repository.dbRepository;
+package persistence.repository.dbRepository;
 
 import model.ConcertArtist;
-import repository.ConcertArtistRepository;
-import utils.JdbcUtils;
+import org.apache.logging.log4j.Logger;
+import persistence.JdbcUtils;
+import persistence.repository.ConcertArtistRepository;
 
-import java.sql.*;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class ConcertArtistDBRepository implements ConcertArtistRepository {
 

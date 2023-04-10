@@ -1,4 +1,4 @@
-package chat.network.utils;
+package network.servers;
 
 import java.net.Socket;
 

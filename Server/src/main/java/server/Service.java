@@ -1,16 +1,15 @@
-package service;
+package server;
+
 
 import exceptions.ValidationException;
 import model.ConcertArtist;
 import model.User;
-import org.checkerframework.checker.units.qual.C;
-import repository.dbRepository.ConcertArtistDBRepository;
-import repository.dbRepository.UserDBRepository;
+import persistence.repository.dbRepository.ConcertArtistDBRepository;
+import persistence.repository.dbRepository.UserDBRepository;
 import utils.Observable;
 import utils.Observer;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 

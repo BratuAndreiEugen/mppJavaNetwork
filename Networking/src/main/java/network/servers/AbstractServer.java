@@ -1,4 +1,4 @@
-package chat.network.utils;
+package network.servers;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -8,7 +8,7 @@ import java.net.Socket;
 public abstract class AbstractServer {
     private int port;
     private ServerSocket server=null;
-    public AbstractServer( int port){
+    public AbstractServer(int port){
               this.port=port;
     }
 

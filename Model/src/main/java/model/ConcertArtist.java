@@ -1,9 +1,9 @@
 package model;
 
-import java.time.LocalDate;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class ConcertArtist extends Entity<Integer>{
+public class ConcertArtist extends Entity<Integer> implements Serializable {
     private String nume; // nume artist
     private LocalDateTime data; // data spectacolului
     private String location; // locatie

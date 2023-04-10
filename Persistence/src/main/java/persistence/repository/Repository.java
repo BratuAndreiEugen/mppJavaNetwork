@@ -1,4 +1,5 @@
-package repository;
+package persistence.repository;
+
 
 import exceptions.ValidationException;
 import model.Entity;

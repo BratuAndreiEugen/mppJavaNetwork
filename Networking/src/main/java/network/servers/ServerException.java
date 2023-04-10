@@ -1,4 +1,4 @@
-package chat.network.utils;
+package network.servers;
 
 
 public class ServerException extends Exception{

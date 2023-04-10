@@ -1,0 +1,542 @@
+10 Apr 2023 02:04:32,052 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 02:04:32,056 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 02:05:41,327 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 02:05:41,331 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:03:11,901 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:03:11,905 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:04:38,488 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:04:38,491 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:05:09,170 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 03:05:09,171 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 03:05:09,171 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 03:05:09,171 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:05:09,172 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 03:05:09,172 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 03:05:09,175 ERROR persistence.JdbcUtils 41 getNewConnection - java.sql.SQLException: No suitable driver found for jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:05:09,176 TRACE persistence.JdbcUtils 57 getConnection - Exit
+10 Apr 2023 03:08:20,226 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:08:20,229 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:08:37,678 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 03:08:37,678 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 03:08:37,678 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 03:08:37,679 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:08:37,679 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 03:08:37,679 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 03:08:37,796 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72595678)
+10 Apr 2023 03:08:37,802 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 03:16:40,737 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:16:40,740 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:16:59,814 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 03:16:59,815 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 03:16:59,815 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 03:16:59,815 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:16:59,816 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 03:16:59,816 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 03:16:59,923 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72595678)
+10 Apr 2023 03:16:59,929 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 03:19:07,859 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:19:07,862 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:19:28,957 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 03:19:28,958 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 03:19:28,958 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 03:19:28,958 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:19:28,959 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 03:19:28,959 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 03:19:29,067 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72595678)
+10 Apr 2023 03:19:29,073 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 03:23:06,741 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:23:06,744 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:23:18,233 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 03:23:18,233 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 03:23:18,233 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 03:23:18,234 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:23:18,234 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 03:23:18,234 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 03:23:18,340 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54763bbe)
+10 Apr 2023 03:23:18,347 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 03:25:00,569 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:25:00,572 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 03:25:16,797 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 03:25:16,798 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 03:25:16,798 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 03:25:16,798 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 03:25:16,798 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 03:25:16,798 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 03:25:16,904 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@325bdad9)
+10 Apr 2023 03:25:16,909 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:39:26,828 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 12:39:26,832 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 12:39:43,519 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 12:39:43,519 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:39:43,519 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 12:39:43,519 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 12:39:43,520 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 12:39:43,520 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 12:39:43,629 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5306b599)
+10 Apr 2023 12:39:43,636 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:40:28,562 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 12:40:28,562 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:40:28,562 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5306b599)
+10 Apr 2023 12:40:28,563 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:44:10,367 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 12:44:10,370 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 12:44:28,915 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 12:44:28,915 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:44:28,915 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 12:44:28,916 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 12:44:28,916 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 12:44:28,916 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 12:44:29,020 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5306b599)
+10 Apr 2023 12:44:29,027 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:44:45,011 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 12:44:45,011 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:44:45,011 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5306b599)
+10 Apr 2023 12:44:45,012 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:55:14,323 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 12:55:14,326 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 12:55:45,712 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 12:55:45,712 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:55:45,712 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 12:55:45,712 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 12:55:45,712 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 12:55:45,712 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 12:55:45,818 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@91d3605)
+10 Apr 2023 12:55:45,824 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:55:46,832 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 12:55:46,832 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:55:46,832 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 12:55:46,832 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 12:55:46,833 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 12:55:46,833 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 12:55:46,833 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7f01b636)
+10 Apr 2023 12:55:46,840 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 12:56:21,352 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 12:56:21,353 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:56:21,353 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@91d3605)
+10 Apr 2023 12:56:21,354 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 12:56:22,365 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 12:56:22,365 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 12:56:22,366 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7f01b636)
+10 Apr 2023 12:56:22,366 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 13:06:02,951 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 13:06:02,955 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 13:06:19,239 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 13:06:19,239 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:06:19,240 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 13:06:19,240 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 13:06:19,240 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 13:06:19,240 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 13:06:19,346 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d8cec00)
+10 Apr 2023 13:06:19,353 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 13:06:20,371 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 13:06:20,371 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:06:20,371 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 13:06:20,371 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 13:06:20,372 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 13:06:20,372 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 13:06:20,372 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@726b53e4)
+10 Apr 2023 13:06:20,376 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 13:06:48,547 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 13:06:48,548 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:06:48,548 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d8cec00)
+10 Apr 2023 13:06:48,548 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 13:06:49,553 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 13:06:49,553 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:06:49,554 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@726b53e4)
+10 Apr 2023 13:06:49,554 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 13:07:48,200 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 13:07:48,203 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 13:07:57,738 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 13:07:57,738 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:07:57,739 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 13:07:57,739 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 13:07:57,739 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 13:07:57,739 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 13:07:57,844 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d8cec00)
+10 Apr 2023 13:07:57,851 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 13:07:58,859 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 13:07:58,859 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:07:58,860 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 13:07:58,860 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 13:07:58,860 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 13:07:58,861 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 13:07:58,861 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@726b53e4)
+10 Apr 2023 13:07:58,865 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 13:08:07,464 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 13:08:07,464 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:08:07,464 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@726b53e4)
+10 Apr 2023 13:08:07,464 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 13:08:29,772 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 13:08:29,772 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:08:29,772 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@726b53e4)
+10 Apr 2023 13:08:29,773 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 13:08:45,979 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 13:08:45,980 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 13:08:45,980 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@726b53e4)
+10 Apr 2023 13:08:45,980 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:33:20,339 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:33:20,343 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:33:42,353 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 14:33:42,354 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:33:42,354 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:33:42,355 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:33:42,355 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:33:42,355 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:33:42,467 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 14:33:42,473 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 14:33:43,485 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:33:43,485 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:33:43,485 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:33:43,486 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:33:43,486 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:33:43,486 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:33:43,487 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:33:43,491 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:33:49,574 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:33:49,574 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:33:49,574 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:33:49,575 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:34:06,551 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9870, soldSeats=130}
+10 Apr 2023 14:34:06,551 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:34:06,551 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:34:06,557 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 14:34:06,557 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:34:06,557 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:34:06,557 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:34:06,558 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:34:06,558 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:34:06,558 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:34:06,558 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:34:06,559 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:37:28,298 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:37:28,302 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:37:41,449 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 14:37:41,449 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:37:41,449 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:37:41,450 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:37:41,450 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:37:41,450 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:37:41,557 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 14:37:41,563 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 14:37:42,577 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:37:42,577 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:37:42,577 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:37:42,577 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:37:42,578 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:37:42,578 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:37:42,578 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:37:42,582 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:37:51,612 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9860, soldSeats=140}
+10 Apr 2023 14:37:51,612 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:37:51,612 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:37:51,617 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 14:37:51,618 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:37:51,618 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:37:51,618 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:37:51,619 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:37:51,619 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:37:51,619 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:37:51,619 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:37:51,619 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:41:37,041 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:41:37,045 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:41:52,848 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 14:41:52,848 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:41:52,848 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:41:52,849 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:41:52,849 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:41:52,849 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:41:52,961 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 14:41:52,968 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 14:41:53,978 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:41:53,978 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:41:53,978 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:41:53,979 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:41:53,979 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:41:53,979 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:41:53,979 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:41:53,984 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:42:16,719 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9850, soldSeats=150}
+10 Apr 2023 14:42:16,720 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:42:16,720 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:42:16,725 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 14:42:16,726 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:42:16,726 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:42:16,726 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:42:16,726 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:42:16,726 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:42:16,727 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:42:16,727 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:42:16,727 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:43:11,431 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:43:11,434 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:43:31,855 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 14:43:31,856 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:31,856 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:43:31,856 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:43:31,857 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:43:31,857 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:43:31,969 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 14:43:31,976 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 14:43:32,990 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:43:32,990 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:32,991 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:43:32,991 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:43:32,991 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:43:32,991 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:43:32,992 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:43:32,996 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:43:43,516 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9840, soldSeats=160}
+10 Apr 2023 14:43:43,516 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:43,516 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:43:43,522 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 14:43:43,522 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:43:43,522 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:43,522 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:43:43,523 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:43:43,523 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:43:43,523 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:43,523 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:43:43,524 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:43:50,884 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:43:50,885 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:50,885 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:43:50,885 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:43:59,384 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:43:59,384 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:43:59,384 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:43:59,385 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:44:19,081 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9830, soldSeats=170}
+10 Apr 2023 14:44:19,082 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:44:19,082 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:44:19,085 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 14:44:19,085 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:44:19,086 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:44:19,086 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:44:19,086 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:44:19,086 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:44:19,087 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:44:19,087 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:44:19,087 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 14:52:58,461 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:52:58,464 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 14:53:19,925 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 14:53:19,926 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:19,926 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:53:19,926 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:53:19,926 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:53:19,927 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:53:20,048 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 14:53:20,055 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 14:53:21,074 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:53:21,074 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:21,074 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 14:53:21,075 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 14:53:21,075 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 14:53:21,075 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 14:53:21,075 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:53:21,080 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:53:34,421 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 14:53:34,422 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:34,422 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 14:53:34,423 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 14:53:35,432 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:53:35,432 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:35,432 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:53:35,433 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:53:51,669 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9820, soldSeats=180}
+10 Apr 2023 14:53:51,669 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:51,670 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:53:51,675 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 14:53:51,675 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 14:53:51,675 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:51,675 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:53:51,676 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 14:53:51,676 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 14:53:51,676 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 14:53:51,676 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 14:53:51,676 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 15:07:36,217 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:07:36,220 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:08:37,379 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:08:37,380 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:08:37,380 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:08:37,380 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:08:37,380 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:08:37,380 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:08:37,498 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4046bd18)
+10 Apr 2023 15:08:37,506 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:08:38,515 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:08:38,515 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:08:38,515 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:08:38,515 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:08:38,516 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:08:38,516 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:08:38,516 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45504ef)
+10 Apr 2023 15:08:38,524 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:08:45,282 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:08:45,282 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:08:45,283 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4046bd18)
+10 Apr 2023 15:08:45,283 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:08:46,298 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:08:46,298 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:08:46,299 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45504ef)
+10 Apr 2023 15:08:46,299 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:09:10,287 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9810, soldSeats=190}
+10 Apr 2023 15:09:10,287 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:09:10,287 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45504ef)
+10 Apr 2023 15:09:10,293 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 15:09:10,293 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:09:10,293 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:09:10,293 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45504ef)
+10 Apr 2023 15:09:10,294 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:09:10,294 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 15:09:10,294 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:09:10,294 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45504ef)
+10 Apr 2023 15:09:10,294 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 15:09:40,455 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:09:40,458 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:10:02,106 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:10:02,107 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:02,107 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:10:02,107 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:10:02,108 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:10:02,108 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:10:02,219 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:10:02,225 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:10:03,235 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:10:03,235 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:03,235 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:10:03,235 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:10:03,236 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:10:03,236 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:10:03,236 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:03,240 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:10:09,898 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:10:09,898 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:09,898 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:10:09,899 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:10:10,908 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:10:10,908 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:10,908 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:10,909 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:10:22,397 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9800, soldSeats=200}
+10 Apr 2023 15:10:22,397 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:22,397 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:22,402 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 15:10:22,403 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:10:22,403 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:22,403 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:22,404 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:10:22,404 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 15:10:22,404 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:22,404 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:22,404 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 15:10:47,842 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9790, soldSeats=210}
+10 Apr 2023 15:10:47,842 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:47,842 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:47,845 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 15:10:47,846 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:10:47,846 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:47,846 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:47,846 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:10:47,846 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 15:10:47,846 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:10:47,846 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:10:47,847 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 15:13:49,849 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:13:49,852 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:14:19,504 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:14:19,505 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:19,505 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:14:19,505 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:14:19,505 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:14:19,505 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:14:19,636 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:14:19,643 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:14:20,652 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:14:20,652 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:20,652 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:14:20,653 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:14:20,653 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:14:20,653 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:14:20,653 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:14:20,660 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:14:34,944 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:14:34,944 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:34,944 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:14:34,945 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:14:35,954 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:14:35,954 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:35,955 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:14:35,956 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:14:42,128 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9780, soldSeats=220}
+10 Apr 2023 15:14:42,129 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:42,129 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:14:42,134 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 15:14:42,134 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:14:42,134 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:42,135 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:14:42,135 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:14:42,135 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 15:14:42,135 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:14:42,136 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:14:42,136 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 15:16:35,255 INFO  persistence.repository.dbRepository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:16:35,258 INFO  persistence.repository.dbRepository.ConcertArtistDBRepository 28 <init> - Initializing ConcertArtistDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db, jdbc.driver=org.sqlite.JDBC} 
+10 Apr 2023 15:16:51,746 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:16:51,746 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:16:51,746 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:16:51,747 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:16:51,747 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:16:51,747 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:16:51,859 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:16:51,865 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:16:52,882 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:16:52,882 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:16:52,882 TRACE persistence.JdbcUtils 24 getNewConnection - Enter
+10 Apr 2023 15:16:52,882 INFO  persistence.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Proiecte SSD\SQLLite\tema.db
+10 Apr 2023 15:16:52,883 INFO  persistence.JdbcUtils 30 getNewConnection - user: null
+10 Apr 2023 15:16:52,883 INFO  persistence.JdbcUtils 31 getNewConnection - pass: null
+10 Apr 2023 15:16:52,883 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:16:52,888 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:17:02,016 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:17:02,017 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:02,017 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:17:02,018 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:17:03,019 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:17:03,019 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:03,020 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:17:03,020 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:17:15,109 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9770, soldSeats=230}
+10 Apr 2023 15:17:15,110 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:15,110 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:17:15,116 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 15:17:15,116 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:17:15,116 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:15,116 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:17:15,117 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:17:15,117 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 15:17:15,117 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:15,117 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:17:15,117 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit
+10 Apr 2023 15:17:58,502 TRACE persistence.repository.dbRepository.UserDBRepository 52 login - Enter
+10 Apr 2023 15:17:58,502 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:58,502 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@39f80d0a)
+10 Apr 2023 15:17:58,503 TRACE persistence.repository.dbRepository.UserDBRepository 88 login - Exit
+10 Apr 2023 15:17:59,505 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:17:59,505 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:17:59,506 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:17:59,506 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:18:09,571 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 129 update - Enter update task ConcertArtist{, nume='Black Sabbath', data=2023-04-05T20:00, location='Cluj-Napoca', avbSeats=9760, soldSeats=240}
+10 Apr 2023 15:18:09,571 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:18:09,572 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:18:09,575 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 139 update - updated 1 instances
+10 Apr 2023 15:18:09,575 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 62 findAll - Enter
+10 Apr 2023 15:18:09,575 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:18:09,575 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:18:09,576 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 83 findAll - Exit
+10 Apr 2023 15:18:09,576 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 157 findByDay - Enter
+10 Apr 2023 15:18:09,576 TRACE persistence.JdbcUtils 48 getConnection - Enter
+10 Apr 2023 15:18:09,576 TRACE persistence.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cccc71a)
+10 Apr 2023 15:18:09,576 TRACE persistence.repository.dbRepository.ConcertArtistDBRepository 179 findByDay - Exit

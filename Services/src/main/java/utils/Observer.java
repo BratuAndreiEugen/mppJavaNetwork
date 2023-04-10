@@ -1,6 +1,6 @@
 package utils;
 
-public interface Observer{
+public interface Observer {
     void update();
 }
 

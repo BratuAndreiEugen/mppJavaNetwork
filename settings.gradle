@@ -1,2 +1,9 @@
 rootProject.name = 'mppJavaNetwork'
+include 'Client'
+include 'ClientFX'
+include 'Model'
+include 'Networking'
+include 'Persistence'
+include 'Server'
+include 'Services'
 

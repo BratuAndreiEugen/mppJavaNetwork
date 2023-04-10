@@ -1,6 +1,8 @@
 package model;
 
-public class User extends Entity<Integer>{
+import java.io.Serializable;
+
+public class User extends Entity<Integer> implements Serializable {
     private String email;
     private String name;
 

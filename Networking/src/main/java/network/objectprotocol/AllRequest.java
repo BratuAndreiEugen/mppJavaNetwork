@@ -1,2 +1,5 @@
-package network.objectprotocol;public class AllRequest {
+package network.objectprotocol;
+
+public class AllRequest implements Request{
+
 }

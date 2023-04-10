@@ -1,4 +1,4 @@
-package chat.network.objectprotocol;
+package network.objectprotocol;
 
 import java.io.Serializable;
 

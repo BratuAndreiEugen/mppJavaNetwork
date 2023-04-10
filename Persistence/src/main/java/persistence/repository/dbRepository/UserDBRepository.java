@@ -1,17 +1,14 @@
-package repository.dbRepository;
+package persistence.repository.dbRepository;
 
-import model.ConcertArtist;
 import model.User;
 import org.apache.logging.log4j.Logger;
-import repository.Repository;
-import utils.JdbcUtils;
+import persistence.JdbcUtils;
+import persistence.repository.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Properties;
 
 public class UserDBRepository implements Repository<Integer, User> {

@@ -1,23 +1,24 @@
-package controller;
+package client.controller;
 
 import exceptions.ValidationException;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import model.ConcertArtist;
-import service.Service;
-import utils.Observable;
+import server.Service;
+import utils.IObserver;
+import utils.IServices;
 import utils.Observer;
-
 
 import java.io.IOException;
 
 
-public class BuyController implements Observer {
-    private Service service;
+public class BuyController implements IObserver {
+    private IServices service;
 
     private ConcertArtist concert;
 
@@ -49,7 +50,7 @@ public class BuyController implements Observer {
 
     @FXML
     public void initialize(){
-        EventHandler<ActionEvent> event = new EventHandler<javafx.event.ActionEvent>() {
+        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 try {
@@ -70,23 +71,25 @@ public class BuyController implements Observer {
         System.out.println(nume);
         System.out.println(seats);
         try {
-            this.setConcert(service.updateSeats(concert, seats));
-        }catch (ValidationException ve){
+            service.updateSeats(concert, seats);
+            ((Node)(event.getSource())).getScene().getWindow().hide();
+        }catch (Exception ve){
             MessageAlert.showErrorMessage(null, ve.getMessage());
         }
 
     }
 
-    public Service getService() {
+    public IServices getService() {
         return service;
     }
 
-    public void setService(Service service) {
+    public void setService(IServices service) {
         this.service = service;
     }
 
+
     @Override
-    public void update() {
-        this.setConcert(service.getOne(concert.getId()));
+    public void seatsWereUpdated(Iterable<ConcertArtist> all, Iterable<ConcertArtist> filter, ConcertArtist updated) {
+
     }
 }

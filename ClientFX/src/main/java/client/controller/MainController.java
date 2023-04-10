@@ -1,6 +1,6 @@
-package controller;
+package client.controller;
 
-import app.RunApp;
+import client.StartObjectClientFX;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -15,12 +15,11 @@ import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import model.ConcertArtist;
 import model.User;
-import org.checkerframework.checker.units.qual.C;
-import service.Service;
-import utils.Observable;
+import server.Service;
+import utils.IObserver;
+import utils.IServices;
 import utils.Observer;
 
-import javax.swing.text.DateFormatter;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -28,9 +27,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainController implements Observer {
+public class MainController implements IObserver {
 
-    private Service service;
+    private IServices service;
 
     private User user;
 
@@ -125,7 +124,11 @@ public class MainController implements Observer {
         EventHandler<KeyEvent> event2 = new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent event2) {
-                update();
+                try {
+                    handleFilter(event2);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         };
         dayFilter.setOnKeyReleased(event2);
@@ -149,13 +152,18 @@ public class MainController implements Observer {
 
     private void handleLogOut(ActionEvent event) throws IOException{
         ((Node)(event.getSource())).getScene().getWindow().hide();
-        FXMLLoader fxmlLoader=new FXMLLoader(RunApp.class.getResource("/view/loginView.fxml"));
-        Scene scene=new Scene(fxmlLoader.load());
-        Stage stage=new Stage();
-        stage.setScene(scene);
-        stage.show();
-        LoginController lController=fxmlLoader.getController();
-        lController.setService(service);
+//        FXMLLoader fxmlLoader=new FXMLLoader(StartObjectClientFX.class.getResource("/view/loginView.fxml"));
+//        Scene scene=new Scene(fxmlLoader.load());
+//        Stage stage=new Stage();
+//        stage.setScene(scene);
+//        stage.show();
+        try {
+            service.logout(getUser(), this);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+//        LoginController lController=fxmlLoader.getController();
+//        lController.setService(service);
     }
 
     private void handleBuy(ActionEvent event) throws IOException{
@@ -169,7 +177,7 @@ public class MainController implements Observer {
         if(selected == null)
             selected = selectedDay;
 
-        FXMLLoader fxmlLoader=new FXMLLoader(RunApp.class.getResource("/view/buyView.fxml"));
+        FXMLLoader fxmlLoader=new FXMLLoader(StartObjectClientFX.class.getResource("/view/buyView.fxml"));
         Scene scene=new Scene(fxmlLoader.load());
         Stage stage=new Stage();
         stage.setScene(scene);
@@ -177,27 +185,17 @@ public class MainController implements Observer {
         BuyController ctrl = fxmlLoader.getController();
         ctrl.setConcert(selected);
         ctrl.setService(service);
-        ctrl.update();
-        service.addObserver(ctrl);
+        //ctrl.update();
+        //service.addObserver(ctrl);
     }
 
-    @Override
-    public void update() {
-        Iterable<ConcertArtist> concerts = service.getAllConcerts();
-        List<ConcertArtist> listC = new ArrayList<>();
-        if(concerts != null)
-            concerts.forEach(x->listC.add(x));
-        modelConcerts.setAll(listC);
-        try {
-            handleFilter(null);
-        }catch (Exception e)
-        {
-            return;
-        }
-    }
 
     public void handleFilter(KeyEvent event) throws IOException{
         String day = dayFilter.getText();
+        if(day.length() < 10)
+        {
+            return;
+        }
         Iterable<ConcertArtist> concerts = null;
         try {
             concerts = service.getAllByDay(LocalDate.parse(day, DateTimeFormatter.ofPattern("yyyy-MM-dd")));
@@ -210,11 +208,39 @@ public class MainController implements Observer {
         modelConcertsDay.setAll(listD);
     }
 
-    public Service getService() {
+    public IServices getService() {
         return service;
     }
 
-    public void setService(Service service) {
+    public void setService(IServices service) {
         this.service = service;
+    }
+
+
+    public void initModel() throws Exception {
+        Iterable<ConcertArtist> concerts = service.getAllConcerts();
+        List<ConcertArtist> listC = new ArrayList<>();
+        if(concerts != null)
+            concerts.forEach(x->listC.add(x));
+        modelConcerts.setAll(listC);
+    }
+
+
+    @Override
+    public void seatsWereUpdated(Iterable<ConcertArtist> all, Iterable<ConcertArtist> filter, ConcertArtist updated) {
+        dayFilter.clear();
+        System.out.println("UPDATING SEATS IN UI");
+        List<ConcertArtist> allList = new ArrayList<>();
+        List<ConcertArtist> filterList = new ArrayList<>();
+        if(all!=null){
+            all.forEach(x->allList.add(x));
+        }
+        if(filter != null){
+            filter.forEach(x->filterList.add(x));
+        }
+        modelConcerts.setAll(allList);
+        modelConcertsDay.setAll(filterList);
+
+        System.out.println("GATA UI seatsWereUpdated");
     }
 }

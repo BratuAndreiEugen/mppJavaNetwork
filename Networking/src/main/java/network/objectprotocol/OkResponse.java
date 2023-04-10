@@ -1,2 +1,5 @@
-package network.objectprotocol;public class OkResponse {
+package network.objectprotocol;
+
+public class OkResponse implements Response{
 }
+
