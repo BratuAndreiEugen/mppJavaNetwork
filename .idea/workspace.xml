@@ -5,67 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a6c017e-ec1b-4901-9cd6-ec3666a6c297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/client/StartObjectClientFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/client/controller/BuyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/client/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/client/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/client/controller/MessageAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/appclient.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/view/buyView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/view/loginView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/view/mainView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/model/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/model/VanzareBilet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/AllRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/AllResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/BuyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/ClientObjectWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/FilterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/LoggedInResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/LogoutRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/OkResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/ServicesObjectProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/objectprotocol/UpdateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/servers/AbsConcurrentServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/servers/AbstractServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/servers/ObjectConcurrentServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/servers/ServerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/JdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/ConcertArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/dbRepository/ConcertArtistDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/dbRepository/UserDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/server/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/src/main/java/exceptions/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/src/main/java/utils/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/src/main/java/utils/IServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/src/main/java/utils/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/src/main/java/utils/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/AppProtobufs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/org/hibernate/dialect/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/org/hibernate/dialect/identity/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/resources/concert/ConcertArtist.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtoClientFX/src/main/java/client/StartProtoClientFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/MPP_BD.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +56,9 @@
         <task path="$PROJECT_DIR$/Persistence">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ProtoClientFX">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -108,25 +69,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
-                <item name="ClientFX" type="2d1252cf:ModuleNode" />
+                <item name="ProtoClientFX" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
-                <item name="ClientFX" type="2d1252cf:ModuleNode" />
+                <item name="ProtoClientFX" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
-                <item name="ClientFX" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
-                <item name="ClientFX" type="2d1252cf:ModuleNode" />
+                <item name="ProtoClientFX" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -171,6 +125,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab9" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -213,7 +172,7 @@
       <recent name="server" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.client2gradle">
+  <component name="RunManager" selected="Gradle.client1gradle">
     <configuration name="Client2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="client.StartObjectClientFX" />
       <module name="mppJavaNetwork.ClientFX.main" />
@@ -305,10 +264,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="mppJavaNetwork:Persistence [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="mppJavaNetwork:ProtoClientFX [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Persistence" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ProtoClientFX" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -368,6 +327,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="protoClient1" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ProtoClientFX:run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="servergradle" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -391,22 +371,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client2" />
+      <item itemvalue="Gradle.protoClient1" />
       <item itemvalue="Gradle.servergradle" />
       <item itemvalue="Gradle.client1gradle" />
       <item itemvalue="Gradle.client2gradle" />
+      <item itemvalue="Gradle.mppJavaNetwork:ProtoClientFX [build]" />
       <item itemvalue="Gradle.mppJavaNetwork:ClientFX [build]" />
       <item itemvalue="Gradle.mppJavaNetwork:ClientFX [run]" />
-      <item itemvalue="Gradle.mppJavaNetwork:Persistence [build]" />
       <item itemvalue="Gradle.mppJavaNetwork:Server [build]" />
       <item itemvalue="Gradle.mppJavaNetwork:Server [run]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.mppJavaNetwork:ProtoClientFX [build]" />
         <item itemvalue="Gradle.mppJavaNetwork:Server [run]" />
         <item itemvalue="Gradle.mppJavaNetwork:ClientFX [run]" />
         <item itemvalue="Gradle.mppJavaNetwork:ClientFX [build]" />
         <item itemvalue="Gradle.mppJavaNetwork:Server [build]" />
-        <item itemvalue="Gradle.mppJavaNetwork:Persistence [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -421,10 +402,23 @@
       <workItem from="1681067326107" duration="18938000" />
       <workItem from="1681118929401" duration="992000" />
       <workItem from="1681120006576" duration="8898000" />
+      <workItem from="1683559730313" duration="2456000" />
     </task>
+    <task id="LOCAL-00001" summary="lab10 client+server ORM hibernate java">
+      <created>1683559657560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683559657560</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab10 client+server ORM hibernate java" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab10 client+server ORM hibernate java" />
   </component>
 </project>

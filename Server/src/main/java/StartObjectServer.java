@@ -3,6 +3,7 @@ import network.servers.AbstractServer;
 import network.servers.ObjectConcurrentServer;
 import network.servers.ServerException;
 import org.apache.logging.log4j.LogManager;
+import persistence.repository.dbHibernateRepository.ConcertArtistDBHRepository;
 import persistence.repository.dbRepository.ConcertArtistDBRepository;
 import persistence.repository.dbRepository.UserDBRepository;
 import server.ServerImpl;
@@ -26,7 +27,9 @@ public class StartObjectServer {
         }
         UserDBRepository userRepo = new UserDBRepository(serverProps, LogManager.getLogger());
         ConcertArtistDBRepository artRepo = new ConcertArtistDBRepository(serverProps, LogManager.getLogger());
-        ServerImpl implem = new ServerImpl(userRepo, artRepo);
+        ConcertArtistDBHRepository expRepo = new ConcertArtistDBHRepository(LogManager.getLogger());
+        expRepo.initialize();
+        ServerImpl implem = new ServerImpl(userRepo, expRepo);
         int chatServerPort = defaultPort;
         try{
             chatServerPort = Integer.parseInt(serverProps.getProperty("server.port"));

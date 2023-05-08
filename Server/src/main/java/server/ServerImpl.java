@@ -3,6 +3,7 @@ package server;
 import exceptions.ValidationException;
 import model.ConcertArtist;
 import model.User;
+import persistence.repository.ConcertArtistRepository;
 import persistence.repository.dbRepository.ConcertArtistDBRepository;
 import persistence.repository.dbRepository.UserDBRepository;
 import utils.IObserver;
@@ -17,11 +18,11 @@ import java.util.concurrent.Executors;
 public class ServerImpl implements IServices {
     private UserDBRepository userRepo;
 
-    private ConcertArtistDBRepository concertRepo;
+    private ConcertArtistRepository concertRepo;
 
     private List<IObserver> loggedClients;
 
-    public ServerImpl(UserDBRepository userRepo, ConcertArtistDBRepository concertRepo) {
+    public ServerImpl(UserDBRepository userRepo, ConcertArtistRepository concertRepo) {
         this.userRepo = userRepo;
         this.concertRepo = concertRepo;
         this.loggedClients = new CopyOnWriteArrayList<>();

@@ -2,13 +2,20 @@ package model;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class ConcertArtist extends Entity<Integer> implements Serializable {
+
+    private Integer id;
     private String nume; // nume artist
     private LocalDateTime data; // data spectacolului
+
+    private String dataStr;
     private String location; // locatie
     private Integer avbSeats; // nr locuri disponibile
     private Integer soldSeats; // nr locuri vandute
+
+    public ConcertArtist(){}
 
     public ConcertArtist(String nume, LocalDateTime data, String location, Integer avbSeats, Integer soldSeats) {
         this.nume = nume;
@@ -16,6 +23,16 @@ public class ConcertArtist extends Entity<Integer> implements Serializable {
         this.location = location;
         this.avbSeats = avbSeats;
         this.soldSeats = soldSeats;
+    }
+
+    @Override
+    public Integer getId(){
+        return this.id;
+    }
+
+    @Override
+    public void setId(Integer id){
+        this.id = id;
     }
 
     public String getNume() {
@@ -27,7 +44,7 @@ public class ConcertArtist extends Entity<Integer> implements Serializable {
     }
 
     public LocalDateTime getData() {
-        return data;
+        return LocalDateTime.parse(this.dataStr, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
     }
 
     public void setData(LocalDateTime data) {
@@ -58,6 +75,13 @@ public class ConcertArtist extends Entity<Integer> implements Serializable {
         this.soldSeats = soldSeats;
     }
 
+    public String getDataStr() {
+        return dataStr;
+    }
+
+    public void setDataStr(String dataStr) {
+        this.dataStr = dataStr;
+    }
 
     @Override
     public String toString() {
