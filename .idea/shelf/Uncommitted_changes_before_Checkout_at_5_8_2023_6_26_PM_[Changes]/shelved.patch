@@ -1,0 +1,546 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,18 +5,18 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="7a6c017e-ec1b-4901-9cd6-ec3666a6c297" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/AppProtobufs.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoProxy.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoUtils.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoWorker.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProtoClientFX/src/main/java/client/StartProtoClientFX.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95afd1d7-9c43-48b7-b145-d14a243240cb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95afd1d7-9c43-48b7-b145-d14a243240cb.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/org/hibernate/dialect/SQLiteDialect.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/org/hibernate/dialect/identity/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Persistence/src/main/resources/concert/ConcertArtist.hbm.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Networking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Persistence/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Server/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Server/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/MPP_BD.log" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -83,6 +83,24 @@
+               <path>
+                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                 <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
++                <item name="Persistence" type="2d1252cf:ModuleNode" />
++              </path>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
++                <item name="Persistence" type="2d1252cf:ModuleNode" />
++                <item name="Tasks" type="e4a08cd1:TasksNode" />
++              </path>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
++                <item name="Persistence" type="2d1252cf:ModuleNode" />
++                <item name="Tasks" type="e4a08cd1:TasksNode" />
++                <item name="build" type="c8890929:TasksNode$1" />
++              </path>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="mppJavaNetwork" type="f1a62948:ProjectNode" />
+                 <item name="ProtoClientFX" type="2d1252cf:ModuleNode" />
+               </path>
+               <path>
+@@ -162,7 +180,10 @@
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Proiecte SSD/Java/mppJavaNetwork&quot;
++    &quot;last_opened_file_path&quot;: &quot;C:/Proiecte SSD/Java/mppJavaNetwork&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+   },
+   &quot;keyToStringList&quot;: {
+     &quot;DatabaseDriversLRU&quot;: [
+@@ -186,7 +207,7 @@
+       <recent name="server" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Gradle.protoClient2gradle">
++  <component name="RunManager" selected="Gradle.servergradle">
+     <configuration name="Client2" type="Application" factoryName="Application">
+       <option name="MAIN_CLASS_NAME" value="client.StartObjectClientFX" />
+       <module name="mppJavaNetwork.ClientFX.main" />
+@@ -236,18 +257,18 @@
+       <DebugAllEnabled>false</DebugAllEnabled>
+       <method v="2" />
+     </configuration>
+-    <configuration name="mppJavaNetwork:ClientFX [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="mppJavaNetwork:ClientFX [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$/ClientFX" />
+         <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" />
++        <option name="scriptParameters" value="" />
+         <option name="taskDescriptions">
+           <list />
+         </option>
+         <option name="taskNames">
+           <list>
+-            <option value="build" />
++            <option value="run" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -257,10 +278,10 @@
+       <DebugAllEnabled>false</DebugAllEnabled>
+       <method v="2" />
+     </configuration>
+-    <configuration name="mppJavaNetwork:ClientFX [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="mppJavaNetwork:Networking [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientFX" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$/Networking" />
+         <option name="externalSystemIdString" value="GRADLE" />
+         <option name="scriptParameters" value="" />
+         <option name="taskDescriptions">
+@@ -268,7 +289,7 @@
+         </option>
+         <option name="taskNames">
+           <list>
+-            <option value="run" />
++            <option value="build" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -278,12 +299,12 @@
+       <DebugAllEnabled>false</DebugAllEnabled>
+       <method v="2" />
+     </configuration>
+-    <configuration name="mppJavaNetwork:Networking [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="mppJavaNetwork:Persistence [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$/Networking" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$/Persistence" />
+         <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" value="" />
++        <option name="scriptParameters" />
+         <option name="taskDescriptions">
+           <list />
+         </option>
+@@ -320,7 +341,7 @@
+       <DebugAllEnabled>false</DebugAllEnabled>
+       <method v="2" />
+     </configuration>
+-    <configuration name="mppJavaNetwork:Server [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
++    <configuration name="mppJavaNetwork:Server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$/Server" />
+@@ -331,7 +352,7 @@
+         </option>
+         <option name="taskNames">
+           <list>
+-            <option value="run" />
++            <option value="build" />
+           </list>
+         </option>
+         <option name="vmOptions" />
+@@ -388,7 +409,7 @@
+         <option name="executionName" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+         <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" value="" />
++        <option name="scriptParameters" value="--stacktrace" />
+         <option name="taskDescriptions">
+           <list />
+         </option>
+@@ -411,19 +432,19 @@
+       <item itemvalue="Gradle.servergradle" />
+       <item itemvalue="Gradle.client1gradle" />
+       <item itemvalue="Gradle.client2gradle" />
++      <item itemvalue="Gradle.mppJavaNetwork:Persistence [build]" />
++      <item itemvalue="Gradle.mppJavaNetwork:Server [build]" />
+       <item itemvalue="Gradle.mppJavaNetwork:ProtoClientFX [run]" />
+       <item itemvalue="Gradle.mppJavaNetwork:Networking [build]" />
+-      <item itemvalue="Gradle.mppJavaNetwork:ClientFX [build]" />
+       <item itemvalue="Gradle.mppJavaNetwork:ClientFX [run]" />
+-      <item itemvalue="Gradle.mppJavaNetwork:Server [run]" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Gradle.mppJavaNetwork:Persistence [build]" />
++        <item itemvalue="Gradle.mppJavaNetwork:Server [build]" />
+         <item itemvalue="Gradle.mppJavaNetwork:ProtoClientFX [run]" />
+         <item itemvalue="Gradle.mppJavaNetwork:Networking [build]" />
+         <item itemvalue="Gradle.mppJavaNetwork:ClientFX [run]" />
+-        <item itemvalue="Gradle.mppJavaNetwork:Server [run]" />
+-        <item itemvalue="Gradle.mppJavaNetwork:ClientFX [build]" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -447,7 +468,9 @@
+       <workItem from="1682875323750" duration="1106000" />
+       <workItem from="1682969744228" duration="1429000" />
+       <workItem from="1682978828084" duration="8016000" />
+-      <workItem from="1683013130597" duration="6844000" />
++      <workItem from="1683013130597" duration="7453000" />
++      <workItem from="1683402483115" duration="9601000" />
++      <workItem from="1683546675861" duration="640000" />
+     </task>
+     <task id="LOCAL-00001" summary="build.gradle extra commits">
+       <created>1681129434581</created>
+@@ -456,7 +479,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681129434581</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="lab9 client java">
++      <created>1683022533999</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1683022533999</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -464,20 +494,30 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="build.gradle extra commits" />
+-    <option name="LAST_COMMIT_MESSAGE" value="build.gradle extra commits" />
++    <MESSAGE value="lab9 client java" />
++    <option name="LAST_COMMIT_MESSAGE" value="lab9 client java" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/ClientFX/src/main/java/client/controller/LoginController.java</url>
+-          <line>69</line>
+-          <option name="timeStamp" value="3" />
+-        </line-breakpoint>
+         <line-breakpoint enabled="true" type="java-line">
+           <url>file://$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoProxy.java</url>
+           <line>42</line>
+           <option name="timeStamp" value="4" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java</url>
++          <line>42</line>
++          <option name="timeStamp" value="7" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-method">
++          <url>file://$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java</url>
++          <line>48</line>
++          <properties class="server.ServerImpl" method="getAllConcerts">
++            <option name="EMULATED" value="true" />
++            <option name="WATCH_EXIT" value="false" />
++          </properties>
++          <option name="timeStamp" value="8" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+Index: Server/src/main/java/StartObjectServer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Server/src/main/java/StartObjectServer.java b/Server/src/main/java/StartObjectServer.java
+--- a/Server/src/main/java/StartObjectServer.java	
++++ b/Server/src/main/java/StartObjectServer.java	
+@@ -3,6 +3,7 @@
+ import network.servers.ObjectConcurrentServer;
+ import network.servers.ServerException;
+ import org.apache.logging.log4j.LogManager;
++import persistence.repository.dbHibernateRepository.ConcertArtistDBHRepository;
+ import persistence.repository.dbRepository.ConcertArtistDBRepository;
+ import persistence.repository.dbRepository.UserDBRepository;
+ import server.ServerImpl;
+@@ -26,7 +27,9 @@
+         }
+         UserDBRepository userRepo = new UserDBRepository(serverProps, LogManager.getLogger());
+         ConcertArtistDBRepository artRepo = new ConcertArtistDBRepository(serverProps, LogManager.getLogger());
+-        ServerImpl implem = new ServerImpl(userRepo, artRepo);
++        ConcertArtistDBHRepository expRepo = new ConcertArtistDBHRepository(LogManager.getLogger());
++        expRepo.initialize();
++        ServerImpl implem = new ServerImpl(userRepo, expRepo);
+         int chatServerPort = defaultPort;
+         try{
+             chatServerPort = Integer.parseInt(serverProps.getProperty("server.port"));
+Index: Persistence/src/main/resources/concert/ConcertArtist.hbm.xml
+===================================================================
+diff --git a/Persistence/src/main/resources/concert/ConcertArtist.hbm.xml b/Persistence/src/main/resources/concert/ConcertArtist.hbm.xml
+new file mode 100644
+--- /dev/null	
++++ b/Persistence/src/main/resources/concert/ConcertArtist.hbm.xml	
+@@ -0,0 +1,26 @@
++<?xml version="1.0"?>
++
++<!--
++  ~ Hibernate, Relational Persistence for Idiomatic Java
++  ~
++  ~ License: GNU Lesser General Public License (LGPL), version 2.1 or later.
++  ~ See the lgpl.txt file in the root directory or <http://www.gnu.org/licenses/lgpl-2.1.html>.
++  -->
++<!DOCTYPE hibernate-mapping PUBLIC
++        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
++        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
++
++<hibernate-mapping package="model">
++
++    <class name="model.ConcertArtist" table="concertartists">
++        <id name="id" column="id">
++            <generator class="increment"/>
++        </id>
++        <property name="nume" column="name"/>
++        <property name="dataStr" column="date"/>
++        <property name="location" column="location"/>
++        <property name="avbSeats" column="seats"/>
++        <property name="soldSeats" column="noSeats"/>
++    </class>
++
++</hibernate-mapping>
+\ No newline at end of file
+Index: Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java
+===================================================================
+diff --git a/Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java b/Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java
+new file mode 100644
+--- /dev/null	
++++ b/Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java	
+@@ -0,0 +1,160 @@
++package persistence.repository.dbHibernateRepository;
++
++import model.ConcertArtist;
++import org.apache.logging.log4j.Logger;
++import org.hibernate.Session;
++import org.hibernate.SessionFactory;
++import org.hibernate.Transaction;
++import org.hibernate.boot.MetadataSources;
++import org.hibernate.boot.registry.StandardServiceRegistry;
++import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
++import persistence.JdbcUtils;
++import persistence.repository.ConcertArtistRepository;
++
++import javax.persistence.criteria.CriteriaBuilder;
++import javax.persistence.criteria.CriteriaQuery;
++import javax.persistence.criteria.Root;
++import java.time.LocalDate;
++import java.time.format.DateTimeFormatter;
++import java.util.List;
++import java.util.Properties;
++
++public class ConcertArtistDBHRepository implements ConcertArtistRepository {
++
++    private static SessionFactory sessionFactory;
++
++    private Logger logger;
++
++    public static void initialize(){
++        // A SessionFactory is set up once for an application!
++        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
++                .configure() // configures settings from hibernate.cfg.xml
++                .build();
++        try {
++            sessionFactory = new MetadataSources( registry ).buildMetadata().buildSessionFactory();
++        }
++        catch (Exception e) {
++            System.err.println("Exceptie "+e);
++            StandardServiceRegistryBuilder.destroy( registry );
++        }
++    }
++
++    static void close(){
++        if(sessionFactory != null){
++            sessionFactory.close();
++        }
++    }
++
++    public ConcertArtistDBHRepository(Logger logger){
++        this.logger = logger;
++        this.logger.info("Initializing ConcertArtistDBHibernateRepository with session factory: {} ", sessionFactory);
++    }
++
++    @Override
++    public Iterable<ConcertArtist> findByArtist(String artist) {
++        return null;
++    }
++
++    @Override
++    public Iterable<ConcertArtist> findByDay(LocalDate day) {
++        List<ConcertArtist> concerts = null;
++        try(Session session = sessionFactory.openSession()){
++            Transaction tx = null;
++            try{
++                tx = session.beginTransaction();
++                CriteriaBuilder builder = session.getCriteriaBuilder();
++                CriteriaQuery<ConcertArtist> criteria = builder.createQuery(ConcertArtist.class);
++                Root<ConcertArtist> root = criteria.from(ConcertArtist.class);
++
++                // Add a condition to filter the results
++                criteria.where(builder.like(root.get("dataStr"), day.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + "%"));
++
++                concerts = session.createQuery(criteria).getResultList();
++
++                System.out.println("repo Filter" + concerts.size());
++                concerts.forEach(System.out::println);
++                tx.commit();
++            }catch (RuntimeException ex){
++                System.err.println(ex);
++                if(tx != null)
++                    tx.rollback();
++            }
++        }
++        return concerts;
++    }
++
++    @Override
++    public ConcertArtist findOne(Integer integer) {
++        ConcertArtist concert = null;
++        try(Session session = sessionFactory.openSession()){
++            Transaction tx = null;
++            try{
++                tx = session.beginTransaction();
++                concert = session.get(ConcertArtist.class, integer);
++                tx.commit();
++            }catch (RuntimeException ex){
++                if (tx != null) {
++                    logger.error(ex.getMessage());
++                    tx.rollback();
++                }
++                return null;
++            }
++        }
++        return concert;
++    }
++
++    @Override
++    public Iterable<ConcertArtist> findAll() {
++        List<ConcertArtist> concerts = null;
++        try(Session session = sessionFactory.openSession()){
++            Transaction tx = null;
++            try{
++                tx = session.beginTransaction();
++                concerts = session.createQuery("from ConcertArtist", ConcertArtist.class).stream().toList();
++                System.out.println("repo findAll" + concerts.size());
++                concerts.forEach(System.out::println);
++                tx.commit();
++            }catch (RuntimeException ex){
++                System.err.println(ex);
++                if(tx != null)
++                    tx.rollback();
++            }
++        }
++        return concerts;
++    }
++
++    @Override
++    public ConcertArtist save(ConcertArtist entity) {
++        return null;
++    }
++
++    @Override
++    public ConcertArtist delete(Integer integer) {
++        return null;
++    }
++
++    @Override
++    public ConcertArtist update(ConcertArtist entity) {
++        logger.traceEntry("update task {}", entity);
++        ConcertArtist c = entity;
++        try(Session session = sessionFactory.openSession()){
++            Transaction tx = null;
++            try{
++                tx = session.beginTransaction();
++                c = session.load(ConcertArtist.class, entity.getId());
++                System.out.println("INAINTE DE UPDATE : " + c);
++                c.setAvbSeats(entity.getAvbSeats());
++                c.setSoldSeats(entity.getSoldSeats());
++                session.update(c);
++                c = session.load(ConcertArtist.class, entity.getId());
++                System.out.println("DUPA UPDATE : " + c);
++                tx.commit();
++            }catch (RuntimeException ex){
++                System.err.println("Eroare la update "+ex);
++                if (tx!=null)
++                    tx.rollback();
++            }
++        }
++        return c;
++    }
++}
+Index: Persistence/src/main/resources/hibernate.cfg.xml
+===================================================================
+diff --git a/Persistence/src/main/resources/hibernate.cfg.xml b/Persistence/src/main/resources/hibernate.cfg.xml
+new file mode 100644
+--- /dev/null	
++++ b/Persistence/src/main/resources/hibernate.cfg.xml	
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE hibernate-configuration PUBLIC
++        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
++        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
++
++<hibernate-configuration>
++    <session-factory>
++
++        <property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
++        <property name="connection.driver_class">org.sqlite.JDBC</property>
++        <property name="connection.url">jdbc:sqlite:C:\\Proiecte SSD\\SQLLite\\tema.db</property>
++
++        <property name="hibernate.hbm2ddl.auto">none</property>
++
++        <!-- Echo all executed SQL to stdout -->
++        <property name="show_sql">true</property>
++        <property name="format_sql">true</property>
++
++        <mapping resource="concert/ConcertArtist.hbm.xml"/>
++
++    </session-factory>
++</hibernate-configuration>
+\ No newline at end of file
+Index: Server/src/main/java/server/ServerImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Server/src/main/java/server/ServerImpl.java b/Server/src/main/java/server/ServerImpl.java
+--- a/Server/src/main/java/server/ServerImpl.java	
++++ b/Server/src/main/java/server/ServerImpl.java	
+@@ -3,6 +3,7 @@
+ import exceptions.ValidationException;
+ import model.ConcertArtist;
+ import model.User;
++import persistence.repository.ConcertArtistRepository;
+ import persistence.repository.dbRepository.ConcertArtistDBRepository;
+ import persistence.repository.dbRepository.UserDBRepository;
+ import utils.IObserver;
+@@ -17,11 +18,11 @@
+ public class ServerImpl implements IServices {
+     private UserDBRepository userRepo;
+ 
+-    private ConcertArtistDBRepository concertRepo;
++    private ConcertArtistRepository concertRepo;
+ 
+     private List<IObserver> loggedClients;
+ 
+-    public ServerImpl(UserDBRepository userRepo, ConcertArtistDBRepository concertRepo) {
++    public ServerImpl(UserDBRepository userRepo, ConcertArtistRepository concertRepo) {
+         this.userRepo = userRepo;
+         this.concertRepo = concertRepo;
+         this.loggedClients = new CopyOnWriteArrayList<>();
