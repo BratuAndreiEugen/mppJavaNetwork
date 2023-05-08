@@ -32,7 +32,7 @@ javafx {
 }
 
 application{
-    mainClass='client.StartObjectClientFX'
+    mainClass='client.StartProtoClientFX'
 }
 
 test {

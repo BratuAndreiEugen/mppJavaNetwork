@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a6c017e-ec1b-4901-9cd6-ec3666a6c297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/AppProtobufs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/org/hibernate/dialect/SQLiteDialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/org/hibernate/dialect/identity/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/java/persistence/repository/dbHibernateRepository/ConcertArtistDBHRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/resources/concert/ConcertArtist.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistence/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProtoClientFX/src/main/java/client/StartProtoClientFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/model/ConcertArtist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Networking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/StartObjectServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/server/ServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/AppProtobufs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/AppProtobufs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Networking/src/main/java/network/protobufprotocol/ProtoWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtoClientFX/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoClientFX/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtoClientFX/src/main/java/client/StartProtoClientFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoClientFX/src/main/java/client/StartProtoClientFX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/target/MPP_BD.log" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/MPP_BD.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +162,7 @@
       <recent name="server" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.client1gradle">
+  <component name="RunManager" selected="Gradle.protoClient1">
     <configuration name="Client2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="client.StartObjectClientFX" />
       <module name="mppJavaNetwork.ClientFX.main" />
@@ -402,7 +392,7 @@
       <workItem from="1681067326107" duration="18938000" />
       <workItem from="1681118929401" duration="992000" />
       <workItem from="1681120006576" duration="8898000" />
-      <workItem from="1683559730313" duration="2456000" />
+      <workItem from="1683559730313" duration="3847000" />
     </task>
     <task id="LOCAL-00001" summary="lab10 client+server ORM hibernate java">
       <created>1683559657560</created>
@@ -411,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683559657560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab10 client+server ORM hibernate java">
+      <created>1683562339793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683562339793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lab10 client+server ORM hibernate java">
+      <created>1683562393331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683562393331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

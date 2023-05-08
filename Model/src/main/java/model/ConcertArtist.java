@@ -44,7 +44,10 @@ public class ConcertArtist extends Entity<Integer> implements Serializable {
     }
 
     public LocalDateTime getData() {
-        return LocalDateTime.parse(this.dataStr, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
+        if(this.dataStr != null) {
+            this.data = LocalDateTime.parse(this.dataStr, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
+        }
+        return this.data;
     }
 
     public void setData(LocalDateTime data) {
