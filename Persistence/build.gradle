@@ -21,7 +21,7 @@ dependencies {
     implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
     implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
 
-
+    implementation 'org.springframework:spring-context:4.3.8.RELEASE'
 
     implementation project (':Model')
     implementation project (':Services')

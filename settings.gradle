@@ -7,4 +7,5 @@ include 'Persistence'
 include 'Server'
 include 'Services'
 include 'ProtoClientFX'
+include 'RestServices'
 

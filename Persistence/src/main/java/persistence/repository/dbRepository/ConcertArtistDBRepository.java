@@ -2,6 +2,7 @@ package persistence.repository.dbRepository;
 
 import model.ConcertArtist;
 import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Component;
 import persistence.JdbcUtils;
 import persistence.repository.ConcertArtistRepository;
 
@@ -17,6 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+
+@Component
 public class ConcertArtistDBRepository implements ConcertArtistRepository {
 
     private JdbcUtils dbUtils;
@@ -89,6 +92,7 @@ public class ConcertArtistDBRepository implements ConcertArtistRepository {
         logger.traceEntry("saving task {}", entity);
         Connection con = dbUtils.getConnection();
         try(PreparedStatement ps = con.prepareStatement("insert into concertartists(name, date, location, seats, noseats) values (?, ?, ?, ?, ?)")){
+            System.out.println(entity);
             ps.setString(1, entity.getNume());
             ps.setString(2, entity.getData().toString().replace("T", " "));
             ps.setString(3, entity.getLocation());

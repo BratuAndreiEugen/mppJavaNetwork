@@ -25,6 +25,14 @@ public class ConcertArtist extends Entity<Integer> implements Serializable {
         this.soldSeats = soldSeats;
     }
 
+    public ConcertArtist(String nume, String data, String location, Integer avbSeats, Integer soldSeats) {
+        this.nume = nume;
+        this.dataStr = data;
+        this.location = location;
+        this.avbSeats = avbSeats;
+        this.soldSeats = soldSeats;
+    }
+
     @Override
     public Integer getId(){
         return this.id;
